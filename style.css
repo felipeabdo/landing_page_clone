@@ -238,6 +238,15 @@ footer div {
 
 @media (max-width: 940px){
 
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
     #instrutor p {
         text-align: center;
     }
