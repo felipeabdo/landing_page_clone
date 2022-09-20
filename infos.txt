@@ -1,0 +1,111 @@
+Logo: 130 x 60.81
+
+---------------------------
+
+Título: 596.4 x 51.2
+#FF7600
+
+Montserrat 42
+
+--------------------------
+
+Sub-Título: 722.8 x 71.2
+#EDEDED
+Montserrat 31
+
+--------------------------
+
+Lateral esquerda: 481.68 x 216.8
+#EDEDED
+Open Sans 19
+
+-------------------------
+
+Forms: 265.84 x 256.8
+
+-------------------------
+
+Input branco: 225.84 x 51.6
+
+-------------------------
+
+Input Laranja: 225.84 x 97.6
+#FF7600
+Lato 24
+-------------------------
+
+De 11 a 17 de Junho
+#EDEDED
+Montserrat 27
+
+-------------------------
+Online... 
+#DE8300
+Montserrat 25
+
+-------------------------
+
+Seu instrutor
+#FFA200
+Lato 36
+
+-------------------------
+
+Leandro
+#D7D7D7
+Lato 26
+
+-------------------------
+
+descrição
+Lato 19
+#D7D7D7
+
+------------------------
+
+footer
+
+BG: #101010
+Mini Logo: 137 x 30.53
+Lato 14 #8B8B8B
+Lato 13 #636363
+
+
+
+
+
+<div id="icon">
+            <div class="icon">
+                <img class="icone" src="img/fogete.png" alt="foguete">
+                <p>dê um UP nas suas habilidades técnicas e na sua profissão</p>
+            </div>
+            <div class="icon">
+                <img class="icone" src="img/cifrao.png" alt="foguete">
+                <p>dê um UP na sua remuneração mensal</p>
+            </div>
+            <div class="icon">
+                <img class="icone" src="img/star-icon.png" alt="foguete">
+                <p>implemente um Projeto Prático em Cloud do zero e de Forma Profissional</p>
+            </div>
+        </div>
+
+        <div id="input" >
+            <input type="text" name="" id="nome" placeholder="Nome">
+            <input type="email" name="" id="email" placeholder="Seu melhor Email">
+            <input type="button" name="" id="button" value="CADASTRE-SE GRATUITAMENTE">
+        </div>
+
+        <!-- <div id="data">
+            <p>de 11 a 17 de julho</p>
+            <p>Online, Gratuito e Mão na Massa</p>
+        </div> -->
+
+
+        input[type="button"] {
+    background-color: var(--laranja);
+    color: var(--branco);   
+    font-family: var(--fonte_tres); 
+    font-size: 1.4em;
+    font-weight: 700;
+    height: 68.8px;
+

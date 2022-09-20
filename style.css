@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--branco);
+}
+
+:root {
+    /* Laranjas */
+    --laranja: #FF7600;
+    --laranja_online: #DE8300;
+    --laranja_instrutor: #FFA200;
+
+    /* Brancos */
+    --branco: #EDEDED;
+    --branco_leandro: #D7D7D7;
+    --footer_um: #8B8B8B;
+    --footer_dois: #636363;
+
+    /* Fontes */
+    --fonte_open:'Open Sans', sans-serif;
+    --fonte_mont:'Montserrat', sans-serif;
+    --fonte_lato:'Lato', sans-serif;
+}
+
+body {
+    background-color:#0B0101;
+}
+
+header {
+text-align: center;
+margin: 50px;
+}
+
+header img {
+    width: 130px;
+}
+
+header h1 {
+    font-family: var(--fonte_mont);
+    font-size: 48px;
+    color: var(--laranja);
+    margin: 30px 0;
+}
+
+header h2 {
+    font-family: var(--fonte_mont);
+    font-size: 38px;
+    font-weight: 300;
+    color: var(--branco);
+}
+
+span {
+    font-weight: 700;
+}
+
+span.ponta {
+    font-weight: 400;
+}
+
+main {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;  
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 97vw;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    /* border: 1px solid white; */
+}
+
+main img {
+    width: 27px;
+    margin-right: 15px;
+}
+
+.icon {    
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+li {
+    color: var(--branco);
+    display: inline;
+    font-family: var(--fonte_open);
+    font-size: 19px;
+}
+
+.lista {
+    margin-bottom: 30px;
+}
+
+.form {
+   width: 400px;
+}
+
+input {
+    width: 100%;
+    height: 51.6px;
+    margin-bottom: 10px;
+    font-family: var(--fonte_lato);
+    font-size: 1.2rem;
+    border-radius: 5px;
+    color: #0b0101b6;
+    padding: 1rem;
+}
+
+input::placeholder {
+
+}
+
+input[type="button"] {
+    height: 68.8px;
+    background-color: var(--laranja);
+    color: var(--branco);
+    font-family: var(--fonte_lato);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+input[type="button"]:hover {
+    cursor: pointer;
+    transition: .2s;
+    font-size: 1.35rem;
+}
+
+#um {
+    margin-top: 80px;
+}
+
+#data {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+p {
+    font-family: var(--fonte_mont);
+    font-size: 1.563rem;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#online {
+    color: var(--laranja_online);
+}
+
+
+
+#su {
+    color: var(--laranja_instrutor);
+    font-family: var(--fonte_lato);
+    font-size: 36px;
+}
+
+.su {
+   margin-top: 50px; 
+}
+
+#instrutor {
+    display: flex;
+    justify-content: center;
+}
+
+
+#leandro { 
+    width: 680px ;   
+    padding-left: 30px;
+    color: var(--branco_leandro);
+}
+
+#foto {
+    width:192px;
+}
+
+
+#instrutor p {
+    text-align: left;
+}
+
+#instrutor img {
+    width: 192px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.instru_desc {
+    font-family: var(--fonte_lato);
+    font-size: 19px;
+    font-weight: 400;
+}
+
+footer {
+    background-color: #101010;
+    height: 170px;
+    border-top: 1px solid var(--branco);
+}
+
+footer img {
+    width: 137px;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: var(--fonte_lato);
+    color:#8B8B8B;
+    font-size: .85rem;
+    margin-right: 20px;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#footer_dois  p {
+    font-family: var(--fonte_lato);
+    color:#636363;
+    font-size: .7rem;
+    margin-top: 20px;
+}
+
+@media (max-width: 940px){
+
+    #instrutor p {
+        text-align: center;
+    }
+
+
+    footer div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
