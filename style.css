@@ -237,6 +237,18 @@ footer div {
     margin-top: 20px;
 }
 
+@media (max-width: 360px){
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header h2 {
+        font-size: 1.5rem;
+    }
+
+}
+
 @media (max-width: 940px){
 
     header {
@@ -251,11 +263,7 @@ footer div {
         display: flex;
         flex-direction: row;
         justify-content: center;
-    }
-
-    header h2 {
-        font-size: 2rem;
-    }
+    } 
 
     #instrutor p {
         text-align: center;
