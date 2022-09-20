@@ -36,6 +36,7 @@ body {
 header {
 text-align: center;
 margin: 50px;
+
 }
 
 header img {
@@ -238,7 +239,13 @@ footer div {
 
 @media (max-width: 940px){
 
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
 
+    }
     h1 {
         font-size: 2.5rem;
     }
